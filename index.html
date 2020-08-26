@@ -1,0 +1,39 @@
+<html>
+<head>
+	<style type="text/css">
+		body{
+			font-family: arial;
+		}
+		.track-head{
+			text-align: center;
+			background-color: #aaa;
+			width: 90px;
+			height: 60px;
+			margin-right: 5px;
+		}
+		.track-note{
+			background-color: #efefef;
+			width: 60px;
+		}
+		.track-note.on{background-color:#444;}
+		.track-note.off{background-color: #efefef;}
+
+		.progress {
+			display: inline-block;
+			width: 3px;
+			background-color: red;
+			position: absolute;
+			height: 200px;
+			left: 140px;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="app">
+		<canvas id="canvas" width="600" height="300"></canvas>
+	</div>
+
+  <script src="./index.js"></script>
+</body>
+</html>

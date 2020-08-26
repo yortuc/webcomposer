@@ -1,0 +1,22 @@
+{
+  "name": "muziklen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fabric": "^4.1.0",
+    "octavian": "^2.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "tone": "^14.7.39"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
